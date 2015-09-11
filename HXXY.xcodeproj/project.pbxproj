@@ -26,6 +26,14 @@
 		189D8D851B9EC92300DFC074 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D8D841B9EC92300DFC074 /* LoginViewController.m */; };
 		189D8D891B9EF00400DFC074 /* GlobalResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D8D881B9EF00400DFC074 /* GlobalResource.m */; };
 		189D8D901B9EF7C100DFC074 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D8D8F1B9EF7C100DFC074 /* HomeViewController.m */; };
+		18DD0C1E1BA2ADDA00215C48 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DD0C1D1BA2ADDA00215C48 /* HomeTableViewCell.xib */; };
+		18DD0C211BA2ADF500215C48 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD0C201BA2ADF500215C48 /* HomeTableViewCell.m */; };
+		18DD0C241BA2AFB800215C48 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD0C231BA2AFB800215C48 /* HomeModel.m */; };
+		18DD0C311BA2B5D900215C48 /* PingAnXiaoYuanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD0C301BA2B5D900215C48 /* PingAnXiaoYuanViewController.m */; };
+		18DD0C341BA2B61000215C48 /* PingAnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD0C331BA2B61000215C48 /* PingAnModel.m */; };
+		18DD0C381BA2B64E00215C48 /* PingAnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD0C361BA2B64E00215C48 /* PingAnCell.m */; };
+		18DD0C391BA2B64E00215C48 /* PingAnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DD0C371BA2B64E00215C48 /* PingAnCell.xib */; };
+		1FFB25DFEA131D8343DB1E99 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C61EA0B2C1D838EFAB4D87 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +76,21 @@
 		189D8D881B9EF00400DFC074 /* GlobalResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalResource.m; sourceTree = "<group>"; };
 		189D8D8E1B9EF7C100DFC074 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Function/Home/ViewController/HomeViewController.h; sourceTree = "<group>"; };
 		189D8D8F1B9EF7C100DFC074 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Function/Home/ViewController/HomeViewController.m; sourceTree = "<group>"; };
+		18DD0C1D1BA2ADDA00215C48 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeTableViewCell.xib; path = Function/Home/Model/HomeTableViewCell.xib; sourceTree = "<group>"; };
+		18DD0C1F1BA2ADF500215C48 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeTableViewCell.h; path = Function/Home/Model/HomeTableViewCell.h; sourceTree = "<group>"; };
+		18DD0C201BA2ADF500215C48 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeTableViewCell.m; path = Function/Home/Model/HomeTableViewCell.m; sourceTree = "<group>"; };
+		18DD0C221BA2AFB800215C48 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeModel.h; path = Function/Home/Model/HomeModel.h; sourceTree = "<group>"; };
+		18DD0C231BA2AFB800215C48 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeModel.m; path = Function/Home/Model/HomeModel.m; sourceTree = "<group>"; };
+		18DD0C2F1BA2B5D900215C48 /* PingAnXiaoYuanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PingAnXiaoYuanViewController.h; path = Function/PingAnXiaoYuan/PingAnXiaoYuan/PingAnXiaoYuanViewController.h; sourceTree = "<group>"; };
+		18DD0C301BA2B5D900215C48 /* PingAnXiaoYuanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PingAnXiaoYuanViewController.m; path = Function/PingAnXiaoYuan/PingAnXiaoYuan/PingAnXiaoYuanViewController.m; sourceTree = "<group>"; };
+		18DD0C321BA2B61000215C48 /* PingAnModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PingAnModel.h; path = Function/PingAnXiaoYuan/Model/PingAnModel.h; sourceTree = "<group>"; };
+		18DD0C331BA2B61000215C48 /* PingAnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PingAnModel.m; path = Function/PingAnXiaoYuan/Model/PingAnModel.m; sourceTree = "<group>"; };
+		18DD0C351BA2B64E00215C48 /* PingAnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PingAnCell.h; path = Function/PingAnXiaoYuan/Model/PingAnCell.h; sourceTree = "<group>"; };
+		18DD0C361BA2B64E00215C48 /* PingAnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PingAnCell.m; path = Function/PingAnXiaoYuan/Model/PingAnCell.m; sourceTree = "<group>"; };
+		18DD0C371BA2B64E00215C48 /* PingAnCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PingAnCell.xib; path = Function/PingAnXiaoYuan/Model/PingAnCell.xib; sourceTree = "<group>"; };
+		3FDC35D6370A90C927C8E2A2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		46C7B5A1A2BA2A9FD44B53F7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B4C61EA0B2C1D838EFAB4D87 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +108,7 @@
 				189D8D6E1B9EBE8900DFC074 /* Foundation.framework in Frameworks */,
 				189D8D6C1B9EBE6E00DFC074 /* MapKit.framework in Frameworks */,
 				189D8D681B9EBE3800DFC074 /* ImageIO.framework in Frameworks */,
+				1FFB25DFEA131D8343DB1E99 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +129,7 @@
 				189D8D661B9EBE0600DFC074 /* Frameworks */,
 				189D8D271B9EB9A000DFC074 /* HXXYTests */,
 				189D8D0C1B9EB9A000DFC074 /* Products */,
+				3BA08525FB61D3B96B3FE7F1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,6 +199,7 @@
 				189D8D6D1B9EBE8900DFC074 /* Foundation.framework */,
 				189D8D6B1B9EBE6E00DFC074 /* MapKit.framework */,
 				189D8D671B9EBE3800DFC074 /* ImageIO.framework */,
+				B4C61EA0B2C1D838EFAB4D87 /* libPods.a */,
 			);
 			name = Frameworks;
 			path = HXXY;
@@ -182,6 +208,7 @@
 		189D8D7E1B9EC8D700DFC074 /* Function */ = {
 			isa = PBXGroup;
 			children = (
+				18DD0C251BA2B50800215C48 /* PingAnXiaoYuan */,
 				189D8D8A1B9EF77E00DFC074 /* Home */,
 				189D8D7F1B9EC8F800DFC074 /* Login */,
 			);
@@ -250,8 +277,60 @@
 		189D8D8D1B9EF79300DFC074 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				18DD0C1D1BA2ADDA00215C48 /* HomeTableViewCell.xib */,
+				18DD0C1F1BA2ADF500215C48 /* HomeTableViewCell.h */,
+				18DD0C201BA2ADF500215C48 /* HomeTableViewCell.m */,
+				18DD0C221BA2AFB800215C48 /* HomeModel.h */,
+				18DD0C231BA2AFB800215C48 /* HomeModel.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		18DD0C251BA2B50800215C48 /* PingAnXiaoYuan */ = {
+			isa = PBXGroup;
+			children = (
+				18DD0C281BA2B52800215C48 /* Model */,
+				18DD0C271BA2B52200215C48 /* ViewController */,
+				18DD0C261BA2B51D00215C48 /* View */,
+			);
+			name = PingAnXiaoYuan;
+			sourceTree = "<group>";
+		};
+		18DD0C261BA2B51D00215C48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		18DD0C271BA2B52200215C48 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18DD0C2F1BA2B5D900215C48 /* PingAnXiaoYuanViewController.h */,
+				18DD0C301BA2B5D900215C48 /* PingAnXiaoYuanViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		18DD0C281BA2B52800215C48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18DD0C321BA2B61000215C48 /* PingAnModel.h */,
+				18DD0C331BA2B61000215C48 /* PingAnModel.m */,
+				18DD0C351BA2B64E00215C48 /* PingAnCell.h */,
+				18DD0C361BA2B64E00215C48 /* PingAnCell.m */,
+				18DD0C371BA2B64E00215C48 /* PingAnCell.xib */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3BA08525FB61D3B96B3FE7F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46C7B5A1A2BA2A9FD44B53F7 /* Pods.debug.xcconfig */,
+				3FDC35D6370A90C927C8E2A2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +340,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 189D8D2E1B9EB9A000DFC074 /* Build configuration list for PBXNativeTarget "HXXY" */;
 			buildPhases = (
+				793EE7623733668E530C9425 /* Check Pods Manifest.lock */,
 				189D8D071B9EB9A000DFC074 /* Sources */,
 				189D8D081B9EB9A000DFC074 /* Frameworks */,
 				189D8D091B9EB9A000DFC074 /* Resources */,
+				D6CB0416FEC3882C82E95AEE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -336,7 +417,9 @@
 			files = (
 				189D8D1A1B9EB9A000DFC074 /* Main.storyboard in Resources */,
 				189D8D1F1B9EB9A000DFC074 /* LaunchScreen.xib in Resources */,
+				18DD0C1E1BA2ADDA00215C48 /* HomeTableViewCell.xib in Resources */,
 				189D8D1C1B9EB9A000DFC074 /* Images.xcassets in Resources */,
+				18DD0C391BA2B64E00215C48 /* PingAnCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,15 +432,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		793EE7623733668E530C9425 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6CB0416FEC3882C82E95AEE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		189D8D071B9EB9A000DFC074 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DD0C381BA2B64E00215C48 /* PingAnCell.m in Sources */,
 				189D8D141B9EB9A000DFC074 /* AppDelegate.m in Sources */,
 				189D8D111B9EB9A000DFC074 /* main.m in Sources */,
+				18DD0C341BA2B61000215C48 /* PingAnModel.m in Sources */,
+				18DD0C211BA2ADF500215C48 /* HomeTableViewCell.m in Sources */,
+				18DD0C311BA2B5D900215C48 /* PingAnXiaoYuanViewController.m in Sources */,
 				189D8D851B9EC92300DFC074 /* LoginViewController.m in Sources */,
 				189D8D901B9EF7C100DFC074 /* HomeViewController.m in Sources */,
+				18DD0C241BA2AFB800215C48 /* HomeModel.m in Sources */,
 				189D8D891B9EF00400DFC074 /* GlobalResource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,12 +603,13 @@
 		};
 		189D8D2F1B9EB9A000DFC074 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C7B5A1A2BA2A9FD44B53F7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HXXY/PrefixHeader.pch;
 				INFOPLIST_FILE = HXXY/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -495,12 +617,13 @@
 		};
 		189D8D301B9EB9A000DFC074 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FDC35D6370A90C927C8E2A2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HXXY/PrefixHeader.pch;
 				INFOPLIST_FILE = HXXY/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

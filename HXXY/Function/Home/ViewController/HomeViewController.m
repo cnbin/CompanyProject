@@ -7,8 +7,16 @@
 //
 
 #import "HomeViewController.h"
+#import "HomeModel.h"
+#import "HomeTableViewCell.h"
+#import "PingAnXiaoYuanViewController.h"
 
-@interface HomeViewController ()
+@interface HomeViewController (){
+    
+    NSArray * titleArray;
+    NSMutableArray *_saveDataArray;
+    UITableView *_tableView;
+}
 
 @end
 
@@ -17,11 +25,30 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title =@"首页";
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    _saveDataArray = [NSMutableArray array];
+
+    titleArray = [[NSArray alloc] initWithObjects:
+                      @"校务信息",@"宝宝每一天",@"家校联系册",@"宝宝在线",@"平安校园",@"家庭作业",@"备忘录",@"意见反馈",@"应用推荐",@"活动投票",@"校园评价",nil];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - 20) style:UITableViewStylePlain];
+    
+    _tableView.rowHeight = 44;
+    _tableView.delegate = self;
+    _tableView.dataSource = self;
+    
+    [self.view addSubview:_tableView];
+    
+//    for (int i= 0; i<titleArray.count; i++) {
+//        HomeModel * model = [[HomeModel alloc]init];
+//        
+//        model.homeTitle.text = [titleArray objectAtIndex:i];
+//        [_saveDataArray addObject:model];
+//        NSLog(@"savadataarray is %@",_saveDataArray);
+//    }
+//    
+    //注册
+    [_tableView registerNib:[UINib nibWithNibName:@"HomeTableViewCell" bundle:nil] forCellReuseIdentifier:@"Cell"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -40,17 +67,49 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
     // Return the number of rows in the section.
-    return 10;
+    return titleArray.count;
 }
 
 
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 44;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    switch ([indexPath row]) {
+        case 0:
+        {
+         
+        }
+            break;
+        case 4:
+        {
+            PingAnXiaoYuanViewController * pingAnView = [[PingAnXiaoYuanViewController alloc]init];
+            [self.navigationController pushViewController:pingAnView animated:YES];
+        }
+            break;
+    }
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"homecell" forIndexPath:indexPath];
     
-    // Configure the cell...
-    cell.detailTextLabel.text=@"aaa";
+    HomeTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+
+    cell.homeTitle.text = titleArray[indexPath.row];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
+}
+
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+
 }
 
 
@@ -88,14 +147,7 @@
 }
 */
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+
 
 @end
